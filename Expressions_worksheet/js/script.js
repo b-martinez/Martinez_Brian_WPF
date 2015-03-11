@@ -36,3 +36,32 @@ console.log("Each person ate " + slicesPerPerson + " " + "slices of pizza at the
 
 
 
+
+//Slice of Pizza Example 2
+/*
+ Example data set: 10 people, 4 pizzas and 8 slices per pizza will mean each person eats 3 slices
+ and Sparky gets 2 slices.
+ */
+
+//Variables
+var attendeesPartII = 10;
+var pizzasOrdered = 4;
+var slicesPerPizza = 8;
+var sparkyEats;
+
+//Operations
+var slicesPerPerson = (slicesPerPizza * pizzasOrdered);
+sparkyEats = slicesPerPerson % 10;
+
+console.log("Sparky got " + sparkyEats + " " + "of pizza.");
+
+
+
+//Average Shopping Bill
+
+
+
+
+
+
+
