@@ -4,6 +4,7 @@ March 9, 2015
 Expressions Worksheet
  */
 
+/*
 //Dog Years Example
 //Figure out Sparky's age from human years to dog years
 
@@ -43,6 +44,7 @@ console.log("Each person ate " + slicesPerPerson + " " + "slices of pizza at the
  and Sparky gets 2 slices.
  */
 
+/*
 //Variables
 var attendeesPartII = 10;
 var pizzasOrdered = 4;
@@ -55,9 +57,27 @@ sparkyEats = slicesPerPerson % 10;
 
 console.log("Sparky got " + sparkyEats + " " + "of pizza.");
 
-
+ */
 
 //Average Shopping Bill
+
+//Variable
+var week1 = Number(prompt("Enter amount spent on groceries in Week 1:"));
+var week2 = Number(prompt("Enter amount spent on groceries in Week 2:"));
+var week3 = Number(prompt("Enter amount spent on groceries in Week 3:"));
+var week4 = Number(prompt("Enter amount spent on groceries in Week 4:"));
+var week5 = Number(prompt("Enter amount spent on groceries in Week 5:"));
+var groceryArray = [week1, week2, week3, week4, week5];
+
+var groceryTotal = groceryArray[0] + groceryArray[1] + groceryArray[2] + groceryArray[3] + groceryArray[4];
+
+var groceryAvg = (groceryArray[0] + groceryArray[1] + groceryArray[2] + groceryArray[3] + groceryArray[4]) / 5;
+
+console.log("You have spent a total of $" + groceryTotal + " " + "on groceries over 5 weeks. That is an average of $" + groceryAvg + " " + "per week.");
+
+
+
+
 
 
 
