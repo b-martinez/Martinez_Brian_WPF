@@ -4,4 +4,14 @@ Brian Martinez
 Expressions Assignment
  */
 
-alert("Test");
+//alert("Test"); used to test link to html file
+
+//Variables
+var currentWeight = Number(prompt("Enter your CURRENT weight here:"));
+var goalWeight = Number(prompt("Enter your GOAL weight here:"));
+var daysToGoal = Number(prompt("How many days do you have to reach your goal?"));
+var poundsPerDay;
+
+
+
+
