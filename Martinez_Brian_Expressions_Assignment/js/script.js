@@ -20,5 +20,12 @@ poundsPerDay = (inputArray[0] - inputArray[1]) / inputArray[2];
 
 console.log(poundsPerDay);
 
+var incWeek = daysToGoal += 7;
+
+var decWeek = daysToGoal -= 14;
+
+//console.log(incWeek, decWeek);
+
+
 
 
