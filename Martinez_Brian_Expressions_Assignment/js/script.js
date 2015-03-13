@@ -2,6 +2,7 @@
 Brian Martinez
 03/12/15
 Expressions Assignment
+Weight Loss Per Day Calculator
  */
 
 //alert("Test"); used to test link to html file
