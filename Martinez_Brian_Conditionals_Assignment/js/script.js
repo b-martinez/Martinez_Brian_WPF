@@ -15,3 +15,6 @@ var entry; //my result variable
 
 console.log(childsAge, parentAge);
 
+//Conditionals
+
+(childsAge >= 18) ? console.log ("You are of age, you MAY enter the venue! Have fun!") : console.log("I'm sorry kid you need to grow up some more!");
