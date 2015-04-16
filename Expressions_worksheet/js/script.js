@@ -76,6 +76,26 @@ console.log("You have spent a total of $" + groceryTotal + " " + "on groceries o
 
 
 
+//Discount Example
+
+//Variables
+var original = Number(prompt("Enter the original price of item:"));
+var discountPct = Number(prompt("Enter discount percentage offered:"));
+var descriptionItem = prompt("Enter description of item purchasing:");
+var salesTax = Number(prompt("Enter sales tax of your state:"));
+
+//Operations
+
+var discountPctConv = discountPct / 100;
+var salesTaxConv = salesTax / 100;
+var priceNoTax = original - (original * discountPctConv);
+var priceTax = priceNoTax + (priceNoTax * salesTaxConv);
+
+console.log("Your " + descriptionItem + " " + "was originally $" + original + ", but after a " + discountPct + "% discount, it is now $" + priceNoTax + " " + "without tax, and $" + priceTax + " " + "with tax.");
+
+
+
+
 
 
 
