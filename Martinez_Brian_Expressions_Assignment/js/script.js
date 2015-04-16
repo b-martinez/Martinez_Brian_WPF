@@ -33,3 +33,9 @@ var decDays = (inputArray[0] - inputArray[1]) / decWeek;
 console.log("If you INCREASED your days by a week (" + incWeek + " days). You could lose " + extraDays + " lbs. per day.");
 
 console.log("If you DECREASED your days by a week (" + decWeek + " days). You would need to lose " + decDays + " lbs. per day.");
+
+//Test Results
+/* I typed in 250 for CURRENT weight and 210 for GOAL weight and 14 days to goal and my calculator told me to lose 2.857142857142857 pounds per day to reach my goal.
+ * I typed in 300 for CURRENT weight and 210 for GOAL weight and 30 days to goal and my calculator told me to lose 3 pounds per day to reach my goal.
+ * I typed in 169 for CURRENT weight and 150 for GOAL weight and 33 days to goal and my calculator told me to lose 0.575 pounds per day to reach my goal.
+ * */
