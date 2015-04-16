@@ -30,3 +30,6 @@ var decDays = (inputArray[0] - inputArray[1]) / decWeek;
 
 //Outputs
 
+console.log("If you INCREASED your days by a week (" + incWeek + " days). You could lose " + extraDays + " lbs. per day.");
+
+console.log("If you DECREASED your days by a week (" + decWeek + " days). You would need to lose " + decDays + " lbs. per day.");
