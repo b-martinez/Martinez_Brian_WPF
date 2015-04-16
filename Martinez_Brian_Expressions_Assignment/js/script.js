@@ -20,3 +20,13 @@ poundsPerDay = (inputArray[0] - inputArray[1]) / inputArray[2];
 
 console.log("In order to reach your goal weight in " + daysToGoal + " days. You would need to lose " + poundsPerDay + " lbs. per day.");
 
+var incWeek = daysToGoal += 7;
+
+var decWeek = daysToGoal -= 14;
+
+var extraDays = (inputArray[0] - inputArray[1]) / incWeek;
+
+var decDays = (inputArray[0] - inputArray[1]) / decWeek;
+
+//Outputs
+
