@@ -36,4 +36,21 @@ if(entry === "") {
                 }
 
             }
+        }else {
+            console.log("You are of age, you may enter the venue.");
+            var tokens = prompt("Did you want tokens to play the games inside? Yes or No.");
+            if (tokens === "") {
+                tokens = prompt("Did you want to purchase tokens today? Yes or No.");
+                if (tokens === "Yes") {
+                    var amountTokens = Number(prompt("How many tokens did you want to purchase? (Note: Each token costs $0.25) Enter a number."));
+                    var tokensTotal = amountTokens * 0.25;
+                    console.log("You will purchase " + amountTokens + " tokens. At a total cost of $" + tokensTotal + ".");
+                }
+            }else{
+                console.log("Maybe next time!");
+            }
         }
+    }else{
+        console.log("Thank you come again!");
+    }
+}
