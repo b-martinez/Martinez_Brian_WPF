@@ -25,6 +25,18 @@ totalCost(price, quantity, salesTax);
 
 console.log("The total price of your purchase is $" + purchase + ".");
 
+var discountCost = function(purchase, discount){
+    var convPer = discount / 100;
+    var disOrder = purchase * convPer;
+    var newAmount = purchase - disOrder;
+    return newAmount;
+}
+
+var newAmount = discountCost(purchase, discount);
+
+console.log("Your new amount after the discount is applied is $" + newAmount + ".");
+
+
 
 
 
