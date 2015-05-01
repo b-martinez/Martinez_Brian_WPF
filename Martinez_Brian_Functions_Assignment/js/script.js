@@ -1,4 +1,4 @@
-/**
+/*
   Brian Martinez
   04/30/2015
   Functions Assignment
@@ -6,10 +6,21 @@
 
 //alert("Test!"); tested link between files
 
-
 var price = Number(prompt("Enter the price of item you are purchasing.")); //prompt for price
+while(price===""){
+    price = prompt("Please do not leave blank.\nEnter price of the item.");
+}
+
 var quantity = Number(prompt("Enter the quantity of the item you are purchasing.")); //prompt for quantity
+while(quantity===""){
+    quantity = prompt("Please do not leave blank.\nEnter quantity of items to purchase.");
+}
+
 var salesTax = Number(prompt("Enter the sales tax of the item you are purchasing.\nPlease enter in decimal form.")); //prompt for sales tax
+while(salesTax===""){
+    salesTax = prompt("Please do not leave blank.\nEnter sales tax.");
+}
+
 var discount = Number(prompt("Enter any discount (%) if applicable.\n(Discount will be applied after taxes.)")); //prompt for discount
 
 var purchase = totalCost(price, quantity, salesTax); //return value
